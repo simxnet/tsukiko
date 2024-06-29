@@ -1,8 +1,14 @@
+"use client";
+
 import { Box, Container, HStack } from "@/styled-system/jsx";
 import Settings from "./settings";
 import { Heading } from "@/components/ui/heading";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+	const pathname = usePathname();
+
+	if (pathname === "/init.html") return <></>;
 	return (
 		<Box position={"sticky"} w="full" top={0} py={4}>
 			<Box

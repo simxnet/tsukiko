@@ -60,7 +60,16 @@
 				"title": "Tsukiko",
 				"width": 900,
 				"transparent": true,
-				"titleBarStyle": "Transparent"
+				"titleBarStyle": "Transparent",
+				"label": "main",
+				"visible": false
+			},
+			{
+				"width": 400,
+				"height": 500,
+				"decorations": false,
+				"url": "init.html",
+				"label": "splashscreen"
 			}
 		]
 	}
