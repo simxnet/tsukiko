@@ -1,0 +1,29 @@
+@layer reset, base, tokens, recipes, utilities;
+
+:root {
+  --colors-brand-50: #FEF3F7;
+  --colors-brand-100: #FEE7EF;
+  --colors-brand-200: #FCC4D7;
+  --colors-brand-300: #FAA0BF;
+  --colors-brand-400: #F75990;
+  --colors-brand-500: #F31260;
+  --colors-brand-600: #DB1056;
+  --colors-brand-700: #920B3A;
+  --colors-brand-800: #6D082B;
+  --colors-brand-900: #49051D;
+  --colors-brand-950: #310413;
+}
+
+[data-color="cyan"] {
+  --colors-brand-50: #F6FDFD;
+  --colors-brand-100: #EDFAFC;
+  --colors-brand-200: #D1F3F6;
+  --colors-brand-300: #B5ECF1;
+  --colors-brand-400: #7EDEE7;
+  --colors-brand-500: #46D0DC;
+  --colors-brand-600: #3FBBC6;
+  --colors-brand-700: #2A7D84;
+  --colors-brand-800: #205E63;
+  --colors-brand-900: #153E42;
+  --colors-brand-950: #0E2A2C;
+}
